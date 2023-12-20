@@ -7,25 +7,7 @@ import { CommonModule } from '@angular/common';
   imports: [
     CommonModule
   ],
-  template: `
-    <nav>
-  <a routerLink="home"
-     routerLinkActive="active-page"
-     ariaCurrentWhenActive="page">
-    Home
-  </a>
-  <a routerLink="about"
-     routerLinkActive="active-page"
-     ariaCurrentWhenActive="page">
-    About
-  </a>
-  <a routerLink="shop"
-     routerLinkActive="active-page"
-     ariaCurrentWhenActive="page">
-    Shop
-  </a>
-</nav>
-  `,
+  templateUrl: './navbar.components.html',
   styleUrls: ['./navbar.component.css'],
 })
 export class NavbarComponent {
