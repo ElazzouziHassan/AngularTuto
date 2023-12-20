@@ -2,25 +2,17 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HousingLocationComponent } from '../housing-location/housing-location.component';
 import { Housinglocation } from '../housinglocation';
+import { NavbarComponent } from '../components/navbar/navbar.components';
 
 @Component({
   selector: 'app-home',
   standalone: true,
   imports: [
     CommonModule,
-    HousingLocationComponent
+    HousingLocationComponent,
+    NavbarComponent
   ],
-  template: `
-    <section>
-      <form>
-        <input type="text" placeholder="Filter by city">
-        <button class="primary" type="button">Search</button>
-      </form>
-    </section>
-    <section class="results">
-      <app-housing-location></app-housing-location>
-    </section>
-  `,
+  template: `<app-navbar></app-navbar>`,
   styleUrls: ['./home.component.css'],
 })
 export class HomeComponent {
