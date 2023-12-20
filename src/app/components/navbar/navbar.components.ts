@@ -7,9 +7,7 @@ import { CommonModule } from '@angular/common';
   imports: [
     CommonModule
   ],
-  template: `
-    
-  `,
+  template: ``,
   styleUrls: ['./navbar.component.css'],
 })
 export class NavbarComponent {
