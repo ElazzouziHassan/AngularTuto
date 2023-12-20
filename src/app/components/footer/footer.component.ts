@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-navbar',
+  selector: 'app-footer',
   standalone: true,
   imports: [
     CommonModule
@@ -10,7 +10,7 @@ import { CommonModule } from '@angular/common';
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.css'],
 })
-export class NavbarComponent {
+export class FooterComponent {
 
   
 }
