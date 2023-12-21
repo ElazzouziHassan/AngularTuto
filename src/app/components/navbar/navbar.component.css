@@ -1,5 +1,17 @@
-ul{
+nav{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+}
+.logo{}
+.logo h1{}
+.menu{}
+.menu ul{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  list-style: none;
+}
+.menu ul li{}
+.menu ul li a{
+  text-decoration: none;
 }
