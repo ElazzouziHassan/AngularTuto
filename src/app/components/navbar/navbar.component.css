@@ -1,7 +1,9 @@
 nav{
-  background: black;
+  background: rgb(143, 77, 77);
   display: flex;
   align-items: center;
+  height: 7vh;
+  border-bottom: dashed .5px rgb(81, 183, 176);
 }
 .logo{}
 .logo h1{}
