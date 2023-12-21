@@ -4,17 +4,36 @@ nav{
   align-items: center;
   height: 7vh;
   border-bottom: dashed .5px rgb(81, 183, 176);
+  justify-content: space-between;
 }
-.logo{}
-.logo h1{}
-.menu{}
+.logo{
+  margin-left: 80px;
+}
+.logo h1{
+  color: rgb(234, 214, 218);
+  font-size: 24px;
+}
+.menu{
+  margin-right: 80px;
+}
 .menu ul{
   display: flex;
   gap: 20px;
   align-items: center;
   list-style: none;
 }
-.menu ul li{}
+.menu ul li{
+  padding: 5px;
+}
 .menu ul li a{
+  color: rgb(234, 214, 218);
   text-decoration: none;
+  padding: 5px;
+  border-radius: 10px 50% 20px 70%;
+  transition: all ease-in-out .4s;
+}
+.menu ul li a:hover{
+  color: rgb(255, 206, 151);
+  border: solid .5px rgb(0, 107, 0);
+  border-radius: 10px 50% 20px 70%;
 }
