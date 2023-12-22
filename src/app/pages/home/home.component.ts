@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HousingLocationComponent } from '../../housing-location/housing-location.component';
 import { NavbarComponent } from '../../components/navbar/navbar.components';
 import { FooterComponent } from '../../components/footer/footer.component';
 import { LoginComponent } from '../../login/login.component';
@@ -10,7 +9,6 @@ import { LoginComponent } from '../../login/login.component';
   standalone: true,
   imports: [
     CommonModule,
-    HousingLocationComponent,
     NavbarComponent, 
     FooterComponent, 
     LoginComponent
