@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NavbarComponent } from '../../components/navbar/navbar.components';
 import { FooterComponent } from '../../components/footer/footer.component';
-import { LoginComponent } from '../../login/login.component';
+import { LoginComponent } from '../login/login.component';
 
 @Component({
   selector: 'app-home',
