@@ -10,7 +10,7 @@ export class LoginComponent {
   password: string = '';
 
   login() {
-    
+
     console.log('Logging in with username:', this.username, 'and password:', this.password);
   }
 }
