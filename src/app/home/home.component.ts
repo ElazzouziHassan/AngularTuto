@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HousingLocationComponent } from '../housing-location/housing-location.component';
 import { NavbarComponent } from '../components/navbar/navbar.components';
 import { FooterComponent } from '../components/footer/footer.component';
+import { LoginComponent } from '../login/login.component';
 
 @Component({
   selector: 'app-home',
@@ -11,7 +12,8 @@ import { FooterComponent } from '../components/footer/footer.component';
     CommonModule,
     HousingLocationComponent,
     NavbarComponent, 
-    FooterComponent
+    FooterComponent, 
+    LoginComponent
   ],
   templateUrl: './home.componet.html',
   styleUrls: ['./home.component.css'],
