@@ -8,8 +8,8 @@ import { AuthGuard } from '../../auth.guard';
   imports: [
     CommonModule,
   ],
-  template: ``,
-  styleUrls: [],
+  templateUrl: "./docs.component.html",
+  styleUrls: ["./docs.component.css"],
   providers: [AuthGuard]
 })
 export class DocsComponent {
