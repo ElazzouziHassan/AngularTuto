@@ -7,8 +7,8 @@ import { CommonModule } from '@angular/common';
   imports: [
     CommonModule,
   ],
-  template: ``,
-  styleUrls: [],
+  templateUrl: "./about.component.html",
+  styleUrls: ["./about.component.css"],
 })
 export class AboutComponent {
  
