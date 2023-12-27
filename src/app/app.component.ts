@@ -3,6 +3,9 @@ import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.components';
+import { AboutComponent } from './pages/about/about.component';
+import { DocsComponent } from './pages/docs/docs.component';
+import { OthersComponent } from './pages/others/others.component';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +14,10 @@ import { NavbarComponent } from './components/navbar/navbar.components';
     CommonModule, 
     RouterOutlet,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    AboutComponent,
+    DocsComponent,
+    OthersComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
