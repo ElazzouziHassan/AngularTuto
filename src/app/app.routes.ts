@@ -9,8 +9,8 @@ import { OthersComponent } from './pages/others/others.component';
 export const routes: Routes = [
   {path:'', component: HomeComponent},
   {path:'about', component: AboutComponent},
-  {path:'/docs', component: DocsComponent},
-  {path:'/others', component: OthersComponent},
+  {path:'docs', component: DocsComponent},
+  {path:'others', component: OthersComponent},
   
 ];
 
