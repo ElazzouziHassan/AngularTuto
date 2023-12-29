@@ -23,5 +23,5 @@ import { OthersComponent } from './pages/others/others.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'tuto-app-angular';
+  title = 'Web App | Angular Tuto';
 }
