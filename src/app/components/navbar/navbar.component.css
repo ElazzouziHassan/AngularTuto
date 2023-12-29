@@ -9,12 +9,12 @@ nav{
 .logo{
   margin-left: 80px;
 }
-.logo h1{
+.logo h1 a{
   color: rgb(234, 214, 218);
   font-size: 24px;
 }
 .menu{
-  margin-right: 80px;
+  
 }
 .menu ul{
   display: flex;
@@ -36,4 +36,11 @@ nav{
   color: rgb(255, 206, 151);
   border: solid .5px rgb(0, 107, 0);
   border-radius: 10px 50% 20px 70%;
+}
+.auth{
+  margin-right: 80px;
+}
+.auth h2 a{
+  color: rgb(234, 214, 218);
+  font-size: 24px;
 }
